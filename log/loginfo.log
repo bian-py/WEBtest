@@ -118,3 +118,41 @@ from unknown error: web view not found
 2020-11-21 18:56:19,479 INFO [admin] [server_bat.py(__init__:14)] - 连接远程计算机，ip192.168.128.128,用户名bian,密码123456
 2020-11-21 18:56:19,480 INFO [admin] [server_bat.py(run_bat_file:32)] - 执行命令：文件clear_session.bat，清理服务器缓存
 2020-11-21 18:56:19,590 INFO [admin] [get_driver.py(get_web_driver:14)] - 火狐浏览器驱动
+2020-11-21 19:47:42,363 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件register.yaml
+2020-11-21 19:47:42,368 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件register_email.yaml
+2020-11-21 19:47:42,377 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件cart_huasheng_number.yaml
+2020-11-21 19:47:42,378 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件cart_huasheng_number1.yaml
+2020-11-21 19:47:42,379 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件cart_goods_kinds_num.yaml
+2020-11-21 19:47:42,381 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件cart_cut_btn.yaml
+2020-11-21 19:47:42,382 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件cart_add_btn.yaml
+2020-11-21 19:47:42,382 INFO [admin] [read_yaml_sigle.py(read_yaml_sigle:12)] - 读取单个参数列表的，参数化文件cart_sub_price.yaml
+2020-11-21 19:47:42,386 INFO [admin] [read_yaml.py(read_yaml:12)] - 读取参数化文件login11.yaml
+2020-11-21 19:47:42,398 INFO [admin] [server_bat.py(__init__:14)] - 连接远程计算机，ip192.168.128.128,用户名bian,密码123456
+2020-11-21 19:47:42,398 INFO [admin] [server_bat.py(run_bat_file:32)] - 执行命令：文件clear_session.bat，清理服务器缓存
+2020-11-21 19:47:42,542 INFO [admin] [get_driver.py(get_web_driver:14)] - 火狐浏览器驱动
+2020-11-21 19:47:49,535 INFO [admin] [base.py(__init__:19)] - 正在初始化driver对象<selenium.webdriver.chrome.webdriver.WebDriver (session="11dddeb4e8706e21e6abb3c307ff94c0")>
+2020-11-21 19:47:49,536 INFO [admin] [page_login.py(page_login:65)] - 调用组合业务登录方法，登录用户名为1234@qq.com,密码123456,验证码8888
+2020-11-21 19:47:49,536 INFO [admin] [base.py(base_click_element:30)] - 点击元素('partial link text', '登录')
+2020-11-21 19:47:49,537 INFO [admin] [base.py(base_find_element:24)] - 查找元素('partial link text', '登录')
+2020-11-21 19:47:53,844 INFO [admin] [base.py(base_input_text:35)] - 在元素('css selector', '#username')，输入1234@qq.com
+2020-11-21 19:47:53,845 INFO [admin] [base.py(base_find_element:24)] - 查找元素('css selector', '#username')
+2020-11-21 19:47:53,854 INFO [admin] [base.py(base_input_text:37)] - 情况元素('css selector', '#username')
+2020-11-21 19:47:53,902 INFO [admin] [base.py(base_input_text:35)] - 在元素('css selector', '#password')，输入123456
+2020-11-21 19:47:53,903 INFO [admin] [base.py(base_find_element:24)] - 查找元素('css selector', '#password')
+2020-11-21 19:47:53,910 INFO [admin] [base.py(base_input_text:37)] - 情况元素('css selector', '#password')
+2020-11-21 19:47:53,965 INFO [admin] [base.py(base_input_text:35)] - 在元素('css selector', '#verify_code')，输入8888
+2020-11-21 19:47:53,966 INFO [admin] [base.py(base_find_element:24)] - 查找元素('css selector', '#verify_code')
+2020-11-21 19:47:53,974 INFO [admin] [base.py(base_input_text:37)] - 情况元素('css selector', '#verify_code')
+2020-11-21 19:47:54,023 INFO [admin] [base.py(base_click_element:30)] - 点击元素('css selector', '.J-login-submit')
+2020-11-21 19:47:54,024 INFO [admin] [base.py(base_find_element:24)] - 查找元素('css selector', '.J-login-submit')
+2020-11-21 19:47:54,059 INFO [admin] [page_login.py(page_if_success:39)] - 判断是否登录成功
+2020-11-21 19:47:54,060 INFO [admin] [base.py(base_find_element:24)] - 查找元素('partial link text', '安全退出')
+2020-11-21 19:48:00,956 INFO [admin] [page_login.py(page_if_success:47)] - 登录成功，返回True
+2020-11-21 19:48:00,957 INFO [admin] [test003_login.py(test_login:52)] - 未登录成功
+2020-11-21 19:48:00,957 INFO [admin] [test003_login.py(test_login:54)] - 正在进行断言
+2020-11-21 19:48:00,957 INFO [admin] [base.py(base_get_text:43)] - 获取元素('partial link text', '安全退出')的文本信息
+2020-11-21 19:48:00,957 INFO [admin] [base.py(base_find_element:24)] - 查找元素('partial link text', '安全退出')
+2020-11-21 19:48:03,973 INFO [admin] [test003_login.py(test_login:62)] - 正在登出
+2020-11-21 19:48:03,973 INFO [admin] [base.py(base_click_element:30)] - 点击元素('partial link text', '安全退出')
+2020-11-21 19:48:03,974 INFO [admin] [base.py(base_find_element:24)] - 查找元素('partial link text', '安全退出')
+2020-11-21 19:48:10,544 INFO [admin] [get_driver.py(quit_web_driver:24)] - 关闭火狐浏览器驱动，并置空
