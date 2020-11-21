@@ -1,0 +1,12 @@
+test_login_001:
+  username: ''
+  password: '111'
+  code: '122'
+test_login_002:
+  username: '1234@qq.com'
+  password: '123'
+  code: '8888'
+test_login_003:
+  username: ''
+  password: '123456'
+  code: '8888'

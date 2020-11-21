@@ -1,0 +1,40 @@
+2020-11-20 03:36:00,585 ERROR [admin] [test002_cart.py(test01_cart_empty:45)] - 断言失败:assert False
+ +  where False = <bound method PageCart.page_cart_if_empty of <page.page_cart.PageCart object at 0x000002495A9640D0>>()
+ +    where <bound method PageCart.page_cart_if_empty of <page.page_cart.PageCart object at 0x000002495A9640D0>> = <page.page_cart.PageCart object at 0x000002495A9640D0>.page_cart_if_empty
+ +      where <page.page_cart.PageCart object at 0x000002495A9640D0> = <script.test002_cart.TestCart object at 0x0000024959758DF0>.cart
+2020-11-20 03:36:43,690 ERROR [admin] [test002_cart.py(test03_modify_cart_huasheng_num:131)] - 无错误提示信息，或者提示信息有误,断言失败:Message: 
+
+2020-11-20 03:37:02,945 ERROR [admin] [test002_cart.py(test04_modify_huasheng_num:155)] - 商品数量有误,断言失败:assert '2' == '3'
+  - 3
+  + 2
+2020-11-20 03:37:50,444 ERROR [admin] [test002_cart.py(test04_modify_huasheng_num:183)] - 无错误提示信息，或者提示信息有误,断言失败:assert '购买商品数量不能为0' == '商品数量必须大于0'
+  - 商品数量必须大于0
+  + 购买商品数量不能为0
+2020-11-20 03:38:02,316 ERROR [admin] [test002_cart.py(test04_modify_huasheng_num:183)] - 无错误提示信息，或者提示信息有误,断言失败:assert '购买商品数量不能为0' == '商品数量必须大于0'
+  - 商品数量必须大于0
+  + 购买商品数量不能为0
+2020-11-20 03:40:25,687 ERROR [admin] [test002_cart.py(test05_modify_goods_kinds_number:211)] - 无错误提示信息，或者提示信息有误,断言失败:Message: 
+
+2020-11-20 03:41:07,182 ERROR [admin] [test002_cart.py(test08_check_add_btn:296)] - 逆向用例，+号可用错误,断言失败:assert not True
+ +  where True = <bound method PageCart.page_cart_check_add_if_enable of <page.page_cart.PageCart object at 0x000002495A9640D0>>()
+ +    where <bound method PageCart.page_cart_check_add_if_enable of <page.page_cart.PageCart object at 0x000002495A9640D0>> = <page.page_cart.PageCart object at 0x000002495A9640D0>.page_cart_check_add_if_enable
+ +      where <page.page_cart.PageCart object at 0x000002495A9640D0> = <script.test002_cart.TestCart object at 0x000002495ABA8730>.cart
+2020-11-20 03:42:04,335 ERROR [admin] [test002_cart.py(test11_check_total_price:379)] - 取消选择后商品数量错误,断言失败:assert '￥1271.06' == '￥1279.24'
+  - ￥1279.24
+  + ￥1271.06
+2020-11-20 03:46:36,585 ERROR [admin] [test001_reg.py(test_register:61)] - 断言失败，信息有误或无提示：Message: 
+
+2020-11-20 03:46:47,234 ERROR [admin] [test001_reg.py(test_register:70)] - 无错误提示框Message: 
+
+2020-11-20 03:48:05,105 ERROR [admin] [test001_reg.py(test_register:48)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:48:25,006 ERROR [admin] [test001_reg.py(test_register:48)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:48:44,798 ERROR [admin] [test001_reg.py(test_register:48)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:52:02,410 ERROR [admin] [test001_reg.py(test_register_email:92)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:52:30,449 ERROR [admin] [test001_reg.py(test_register_email:92)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:52:58,696 ERROR [admin] [test001_reg.py(test_register_email:92)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:54:10,791 ERROR [admin] [test001_reg.py(test_register_email:92)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:54:38,868 ERROR [admin] [test001_reg.py(test_register_email:92)] - 错误的用例，能够成功注册，用例不通过
+2020-11-20 03:57:14,031 ERROR [admin] [test001_reg.py(test_register_email:106)] - 断言失败，信息有误或无提示：Message: 
+
+2020-11-20 03:57:24,679 ERROR [admin] [test001_reg.py(test_register_email:115)] - 无错误提示框Message: 
+
