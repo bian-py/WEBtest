@@ -34,7 +34,7 @@ class TestLogin:
                 log.info(f'正在进行断言,获取断言关键字{text}')
                 assert self.login.page_get_error_text() in \
                        ('用户名不能为空!', '密码错误!', '账号格式不匹配!', '密码不能为空!',
-                        '账号不存在!', '验证码错误', '验证码不能为空!')
+                        '账号不存在!78789', '验证码错误', '验证码不能为空!')
             except Exception as e:
                 log.error(f"断言失败:{e}")
                 module_name = str(os.path.basename(__file__)).split('.')[0]
